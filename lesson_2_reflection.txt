@@ -1,19 +1,24 @@
 What happens when you initialize a repository? Why do you need to do it?
 Crear una carpeta oculta .git en donde guarda la información del repositorio y es necesario hacerlo para comenzar a realizar un control de cambios y almacenar cada uno de los commits
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+Es diferente por es es un aera que funciona como puente entre las dos y permite realizar un control esfectivo de cada uno de los cmabios independiente del area de trabajoy del repositorio
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+How can you use the staging area to make sure you have one commit per logical change?
+
+COmparando el contenido del staging areas con el area de trabajo y el repositorios
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Permite relizar cambios y probarlos en diferentes versiones dle porgramas isn afectar el programa original lo que nos permite  ser flexibles  la hora de realizar los cmabios.
 
 How do the diagrams help you visualize the branch structure?
+Premite ver de manerra grafica cada uno de los brach creardos y como se relacionan entre ellos
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+El resultado de combinar dos branch es la uniona de todos los commit y por medios del sistema se comprueba automaticamente, con tres referencias. se representa asi porque tiene dos orignes y se debe rastrear los cambios en los dos
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+
+TEngo un mayor control de los cmabios y se pude identificar rapidamente los conflictos entre las versiones. 
